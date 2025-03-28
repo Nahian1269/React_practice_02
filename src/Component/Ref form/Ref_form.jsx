@@ -12,9 +12,7 @@ const Ref_form = () => {
     const handleSubmit = e =>{
         e.preventDefault()  ;
         console.log(nameRef.current.value);
-        console.log(emailRef.current.value);
-        
-        
+        console.log(emailRef.current.value);  
     }
   return (
 
